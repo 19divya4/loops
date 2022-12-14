@@ -1,0 +1,85 @@
+#  STRONG NUMBER:
+ 
+"""num =int(input("enter the num:"))
+x=num
+fact=1
+r=0
+sum=0
+while x>0:
+  r=x%10
+  for i in range(1,r+1):
+   fact=fact*i
+  sum=sum+fact
+  print(sum,"sum")
+  x=x//10
+  if sum==x:
+    print("it is a strong number")
+  else:
+    print("it is a not a strong number")
+   
+# PERFECT NUMBER
+
+num=int(input("enter the number:"))
+sum=0
+for i in range(1,num):
+  if num%i==0:
+    sum=sum+i
+    print(sum)
+if num ==sum:
+    print("it is a perfect number")
+else:
+    print("it is not a perfect number")
+     
+     
+     
+# HARSHAD NUMBER:
+
+num=int(input("enter the number"))
+x=num
+sum=0
+while x>0:
+  a=x%10
+  sum=sum+a
+  print(sum)
+  x=x//10
+if num%sum==0:
+   print(num,"it is a harshad number ")
+else:
+  print(num,"it is not a harshad number")
+   
+   
+  
+ # MAGIC NUMBER
+ 
+num=int(input("enter the num"))
+x=num
+while x>=10:
+    sum=0
+    while x>0:
+      a=x%10
+      sum=sum+a
+      x=x//10
+    x=sum
+if x==1:
+    print(num," it is a magic number")
+else:
+    print(num,"not a magic number")"""
+ 
+   
+ # HAPPY NUMBER 
+  
+num=int(input("enter number:"))
+x=num
+while x>=10:
+  sum=0
+  while x>0:
+    r=x%10
+    sum=sum+r*r
+    x=x//10
+  print(sum)
+  x=sum
+if x==1:
+      print(num,"num is happy number") 
+else:
+      print(num,"num not a happy number")
+ 
